@@ -1,15 +1,35 @@
-Part 1: Basic commands
--create and delete directories:
--navigate:
--compare:
--find files, folders and inside files:
--create and edit text files:
--get the state of the computer:
+# Commands
+create a directory
+```shell
+mkdir
+```
 
-Part 2: Examples
--the initial configuration:
--starting a project from zero or cloning an existing repository:
--basic workflow commands to stage and commit:
--push to a remote repository:
--branches: create, delete, save/commit & merge:
--gitflow:
+delete a directory
+```shell
+rmdir
+```
+
+navigate
+```shell
+cd
+```
+
+comparete the changes
+```shell
+git diff
+```
+
+find files, folders and inside files
+```shell
+find
+```
+
+create and edit text files
+```shell
+nano
+```
+
+get the status of the computer
+```shell
+git status
+```
