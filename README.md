@@ -1,82 +1,84 @@
 # Basic Commands
-##Create a directory
+## To create a directory
 ```shell
 mkdir
 ```
 
-##Delete a directory
+## To delete a directory
 ```shell
 rmdir
 ```
 
-##Navigate
+## To navigate
 ```shell
 cd
 ```
 
-##Compare the changes
+## To compare the changes
 ```shell
 git diff
 ```
 
-##Find files, folders and inside files
+## To find files, folders and inside files
 ```shell
 find
 ```
 
-##Create and edit text files
+## To create and edit text files
 ```shell
 nano
 ```
 
-##Get the status of the computer
+## To get the status of the computer
 ```shell
 git status
 ```
 
-#Github w/examples
-##Initial configuration
+# Github w/examples
+
+## For initial configuration
 ```shell
 git config --global user.name "NajbiMaEs"
 git config --global user.mail 2009090@upy.edu.mx
 ```
 
-##Starting project from zero or clone
+## To start project from zero or clone
 ```shell
 From zero:
-
+git init
+git cd "GameCode"
 
 Clone:
-git clon NajbiMaEs-01@host/path/to/repository
+git clon NajbiMaEs-00@host/path/to/repository
 ```
-##Basic workflow to stage and commit
+## For basic workflow to stage and commit
 ```shell
 git add README.md
 
 git commit -m "firstcommit"
 ```
 
-##Push to a remote repository
+## To push to a remote repository
 ```shell
 git push -u origin main
 ```
 
-##Branches
+## Branches
 ```shell
-Create: 
+To create: 
 git checkout -b sandboxbranch
 
-Delete:
+To delete:
 git checkout -d texturesbranch
 
-Commit:
+To commit:
+git push -u origin sandboxbranch
 
-
-Merge:
+To merge:
 git merge gamebranch
 ```
 
-##Gitflow
+## Gitflow
 ```shell
 git flow init
 
